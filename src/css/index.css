@@ -1,0 +1,125 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 5cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#me{
+  top: -15px;
+  left: -15px;
+}
+
+.jumbotron{
+  display: flex;
+  background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
+  align-items: center;
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  background-position: right bottom;
+  border-radius: 0px;
+}
+
+/* @media (min-width: 36em) {
+  .jumbotron{
+    display: flex;
+    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
+    align-items: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    background-position: right bottom;
+  }
+}
+@media (min-width: 60em) {
+  .jumbotron{
+    display: flex;
+    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
+    align-items: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 700px;
+    background-position: right bottom;
+  }
+}
+@media (min-width: 70em) {
+  .jumbotron{
+    display: flex;
+    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
+    align-items: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 800px;
+    background-position: right bottom;
+  }
+}
+@media (min-width: 92em) {
+  .jumbotron{
+    display: flex;
+    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
+    align-items: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 900px;
+    background-position: right bottom;
+  }
+} */
+
+/* ---------- scoot jumbotron ---------- */
+#scoot1{
+  display: flex;
+  align-items: center;
+  /* background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-04-01.jpg"); */
+  background-size: cover;
+  color: #ffffff;
+  /* height: 800px; */
+}
+#scoot1 img{
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+}
+/* ---------- /scoot jumbotron ---------- */
+
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
+
+/* hr{
+  border: 1px solid white;
+} */
