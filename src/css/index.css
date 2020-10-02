@@ -104,7 +104,6 @@ code {
   align-items: center;
   /* background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-04-01.jpg"); */
   background-size: cover;
-  color: #ffffff;
   /* height: 800px; */
 }
 #scoot1 img{
@@ -117,7 +116,7 @@ code {
 
 body {
   font-family: Roboto, sans-serif;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+  /* background-image: url('https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png'); */
 }
 
 /* hr{
