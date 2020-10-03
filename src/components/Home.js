@@ -5,6 +5,11 @@ const Home = () => (
     <div >
         {/* <NavLink to="/books"><img className="img-fluid mb-4" src='images/two-black-white-scooters.jpg' /></NavLink> */}
         {/* <p className="my-5" style={{fontSize: '20px'}}>...<a href='https://www.amazon.com/Logan-Reynolds/e/B089CBVN5F'>...</a>...<NavLink to="/books">....</NavLink> ...<a href='https://www.amazon.com/Logan-Reynolds/e/B089CBVN5F'>...</a></p>  */}
+
+        <div class="jumbotron m-0" >
+            <h1 class="display-4 font-weight-bold">Scooter.inc</h1>
+        </div>
+
         <div className="m-0" id="scoot1" >
             <img  src='images/scooter-spec-banner.jpg' />
         </div>
@@ -62,50 +67,16 @@ const Home = () => (
         </div>
 
         <div className="text-center m-4">
-            <a className="btn btn-dark" style={{width: '200px'}}>Learn More</a>
+            {/* <a className="btn btn-dark" style={{width: '200px'}}>Learn More</a> */}
+            <NavLink className="btn btn-dark" style={{width: '200px'}} to="/info">Learn More</NavLink>
         </div>
         <div className="text-center m-4">
-            <a className="btn btn-dark" style={{width: '200px'}}>buy Now</a>
+            {/* <a className="btn btn-dark" style={{width: '200px'}}>buy Now</a> */}
+            <NavLink className="btn btn-dark" style={{width: '200px'}} to="/buynow">Buy Now</NavLink>
         </div>
         
 
-        {/* <div className="m-0" id="scoot1" style={{backgroundColor: "#f3f3f3"}}>
-            
-            
-
-            <div class="container" >
-                <div class="row">
-                    <div class="col-1" ></div>
-                    <div class="col-8">
-
-                        
-
-                        <img className="pt-4" src='images/scooter-handlebars.jpg' />
-
-                    </div>
-                    <div class="col-3" ></div>
-                </div>
-            </div>
-
-            <div class="container" style={{position: "absolute"}}>
-                <div class="row">
-                    <div className="col-5 m-0 p-0 text-black">
-                        <ul className="p-2" style={{ fontSize: "11px", listStyleType: "none"}}>
-                            <li>
-                                <span style={{fontWeight: "bold"}}>Anti-slip handle</span>
-                                <p>Provides a great grip and control over the scooter, even for longer rides.</p>
-                            </li>
-                            <li>
-                            <span style={{fontWeight: "bold"}}>Controlled acceleration</span>
-                                <p>Give the accelerator a gentle downward push and adjust the amount of pressure until you reach a comfortable speed.</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6"></div>
-                </div>
-            </div>
-            
-        </div> */}
+        
 
         
 

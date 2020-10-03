@@ -7,9 +7,9 @@ import {
 
 // App components
 import Header from './Header';
-import Books from './Books';
+import Info from './Info';
 import Home from './Home';
-import About from './About';
+import BuyNow from './BuyNow';
 import Footer from './Footer';
 import All from './genres/All';
 import Finaces from './genres/Finaces';
@@ -21,8 +21,8 @@ const App = () => (
       <Header />
       <Switch>
         <Route exact path="/home" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/books" component={Books} />
+        <Route path="/buynow" component={BuyNow} />
+        <Route path="/info" component={Info} />
         <Route path="/all" component={All} />
         <Route path="/finaces" component={Finaces} />
         <Route path="/kids" component={Kids} />
