@@ -29,7 +29,6 @@ const App = () => (
         <Route path="/food" component={Food} />
         <Route component={Home} />
       </Switch>
-    <Footer />
   </HashRouter>
 );
 

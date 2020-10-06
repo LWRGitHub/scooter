@@ -26,15 +26,15 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 #me{
@@ -53,50 +53,99 @@ code {
   border-radius: 0px;
 }
 
-/* @media (min-width: 36em) {
-  .jumbotron{
-    display: flex;
-    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
-    align-items: center;
-    background-size: cover;
-    color: #ffffff;
-    height: 500px;
-    background-position: right bottom;
+span{
+  font-weight: "bold";
+}
+
+ul{
+  font-size: 11px;
+}
+
+h5{
+  font-size: "13px";
+  color: #990033
+}
+
+h6{
+  font-size: "12px";
+  color: #c2c2d6;
+}
+
+p{
+  font-size: "11px";
+  max-width: '1000px'
+}
+
+#xray{
+  padding-top: 170px;
+}
+
+@media (min-width: 38em) {
+  ul, p{
+    font-size: 13px;
+  }
+
+  h5{
+    font-size: 15px;
+  }
+
+  h6{
+    font-size: 14px;
+  }
+
+  #xray{
+    padding-top: 300px;
   }
 }
-@media (min-width: 60em) {
-  .jumbotron{
-    display: flex;
-    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
-    align-items: center;
-    background-size: cover;
-    color: #ffffff;
-    height: 700px;
-    background-position: right bottom;
+@media (min-width: 48em) {
+  ul, p{
+    font-size: 15px;
+  }
+
+  h5{
+    font-size: 17px;
+  }
+
+  h6{
+    font-size: 16px;
   }
 }
-@media (min-width: 70em) {
-  .jumbotron{
-    display: flex;
-    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
-    align-items: center;
-    background-size: cover;
-    color: #ffffff;
-    height: 800px;
-    background-position: right bottom;
+
+@media (min-width: 62em) {
+  ul, p{
+    font-size: 20px;
+  }
+
+  h5{
+    font-size: 22px;
+  }
+
+  h6{
+    font-size: 21px;
+  }
+
+  #xray{
+    padding-top: 425px;
   }
 }
-@media (min-width: 92em) {
-  .jumbotron{
-    display: flex;
-    background-image: url("https://i01.appmifile.com/webfile/globalimg/en/goods/mi-electronic-scooter/scooter-01.jpg");
-    align-items: center;
-    background-size: cover;
-    color: #ffffff;
-    height: 900px;
-    background-position: right bottom;
+
+@media (min-width: 78em) {
+  ul, p{
+    font-size: 24px;
   }
-} */
+
+  h5{
+    font-size: 26px;
+  }
+
+  h6{
+    font-size: 25px;
+  }
+
+  #xray{
+    padding-top: 650px;
+  }
+}
 
 /* ---------- scoot jumbotron ---------- */
 #scoot1{
@@ -106,12 +155,14 @@ code {
   background-size: cover;
   /* height: 800px; */
 }
+
 #scoot1 img{
   display: flex;
   align-items: center;
   background-size: cover;
   width: 100%;
 }
+
 /* ---------- /scoot jumbotron ---------- */
 
 body {
@@ -120,7 +171,7 @@ body {
 }
 
 /* hr{
-  border: 1px solid white;
+border: 1px solid white;
 } */
 
 ul{
