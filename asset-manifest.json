@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/scooter/static/css/main.07208da0.chunk.css",
+    "main.js": "/scooter/static/js/main.83277af6.chunk.js",
+    "main.js.map": "/scooter/static/js/main.83277af6.chunk.js.map",
+    "runtime-main.js": "/scooter/static/js/runtime-main.10c0ebc5.js",
+    "runtime-main.js.map": "/scooter/static/js/runtime-main.10c0ebc5.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/scooter/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.fe9ed9af.chunk.js": "/scooter/static/js/2.fe9ed9af.chunk.js",
+    "static/js/2.fe9ed9af.chunk.js.map": "/scooter/static/js/2.fe9ed9af.chunk.js.map",
+    "index.html": "/scooter/index.html",
+    "precache-manifest.6e62f99213787be1e1675745c5c85f1c.js": "/scooter/precache-manifest.6e62f99213787be1e1675745c5c85f1c.js",
+    "service-worker.js": "/scooter/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/scooter/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.07208da0.chunk.css.map": "/scooter/static/css/main.07208da0.chunk.css.map",
+    "static/js/2.fe9ed9af.chunk.js.LICENSE.txt": "/scooter/static/js/2.fe9ed9af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10c0ebc5.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.fe9ed9af.chunk.js",
+    "static/css/main.07208da0.chunk.css",
+    "static/js/main.83277af6.chunk.js"
+  ]
+}
